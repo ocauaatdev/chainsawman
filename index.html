@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <link rel="shortcut icon" href="src/imagens/favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <title>Chainsaw-Man</title>
+</head>
+<body>
+    
+    
+    <div class="fundo-video">
+        <video autoplay loop muted>
+            <source src="src/video/video.mp4" type="video/mp4"/>
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <img class="pochita" src="src/imagens/pochita.png" alt="Pochita">
+        <nav>
+            
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <div class="informacoes">
+
+            <img class="logo" src="src/imagens/logo-chainsawman.png" alt="ChainsawMan Logo">
+
+            <p class="descricao">Denji é um adolescente que mora com o seu demônio de estimação, Ponchita, o Demônio da Motosserra. Apesar disso, seu dever é trabalhar como um Caçador de Dêmonios para pagar uma dívida que possui</p>
+            <button class="botao">Assista o trailer</button>
+        </div>
+        <img class="denji" src="src/imagens/denji.png" alt="Denji">
+        
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="botao-fechar">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb9F59uvA_0" title="Trailer Oficial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="src/js/index.js"></script>
+
+</body>
+</html>
